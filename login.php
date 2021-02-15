@@ -66,7 +66,7 @@
                                 var pw = document.getElementById("password").value;
                                 console.log(name,pw)
                                 if(name == "rivaniarhn" && pw == "12345"){
-                                    window.location.href = "MenuUtama.html"
+                                    window.location.href = "menuUtama.php"
                                 }else if (name !== "rivaniarhn" && pw == "12345"){
                                     alert("Sorry, username is wrong!");
                                 }else if (name == "rivaniarhn" && pw !== "12345"){
