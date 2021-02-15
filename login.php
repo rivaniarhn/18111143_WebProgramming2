@@ -1,6 +1,6 @@
-<?php
-include 'session.php';
-?>
+<!-- <?php
+// include 'session.php';
+?> -->
 
 <html>
     <head>
@@ -28,10 +28,10 @@ include 'session.php';
             </div>
     
             <div class="menu">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
                 <a href="#" class="active">Sign in</a>
-                <a href="HalamanRegist.html">Sign up</a>
-                <a href="About.html">About</a>
+                <a href="register.php">Sign up</a>
+                <a href="about.php">About</a>
             </div>
         </nav>
         <!-- end of navbar -->
@@ -48,12 +48,12 @@ include 'session.php';
                     </div>
                     <body>
                         <div class="card-body">
-                            <form action="menu_utama.html">
+                             <form action="config/login.php" method="POST">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="nama" placeholder="Username">
+                                    <input type="text" class="form-control" name="nama" placeholder="Username">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
                                 </div>
                                 <button type="button" onclick="validasi()" class="btn btn-primary">Sign in</button>
                                 <!-- <button onclick="konfirmasi()"><a href ="MenuUtama.html"></a>Sign in</button>

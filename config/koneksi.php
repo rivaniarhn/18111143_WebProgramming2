@@ -2,7 +2,7 @@
     $database_hostname = 'localhost';
     $database_username = 'root';
     $database_password = '';
-    $database_name = 'review_buku';
+    $database_name = 'uas_rivania';
 
     try{
         $database_connection = new PDO("mysql:host=$database_hostname;dbname=$database_name",
@@ -12,3 +12,4 @@
     }catch(PDOException $x){
         die($x -> getMessage());
     }
+    ?>

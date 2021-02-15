@@ -1,6 +1,6 @@
-<?php
-include 'session.php';
-?>
+<!-- <?php
+// include 'session.php';
+?> -->
 
 <!doctype html>
 <html lang="en">
@@ -36,9 +36,9 @@ include 'session.php';
 
       <div class="menu">
         <a href="#" class="active">Home</a>
-        <a href="HalamanLogin.html">Sign in</a>
-        <a href="HalamanRegist.html">Sign up</a>
-        <a href="About.html">About</a>
+        <a href="login.php">Sign in</a>
+        <a href="register.php">Sign up</a>
+        <a href="about.php">About</a>
       </div>
     </nav>
     <!-- end navbar -->

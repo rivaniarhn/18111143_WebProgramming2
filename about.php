@@ -1,5 +1,5 @@
-<?php
-?>
+<!-- <?php
+?> -->
 
 <!doctype html>
 <html lang="en">
@@ -34,9 +34,9 @@
       </div>
 
       <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="HalamanLogin.html">Sign in</a>
-        <a href="HalamanRegist.html">Sign up</a>
+        <a href="index.php">Home</a>
+        <a href="login.php">Sign in</a>
+        <a href="register.php">Sign up</a>
         <a href="#" class="active">About</a>
       </div>
     </nav>

@@ -1,10 +1,6 @@
-<?php
-include 'session.php';
-include "register.php";
-include "login.php";
-include "about.php";
-include "menuUtama.php";
-?>
+<!-- <?php
+// include 'session.php';
+?> -->
 
 <html>
     <head>
@@ -32,10 +28,10 @@ include "menuUtama.php";
         </div>
   
         <div class="menu">
-          <a href="index.html">Home</a>
-          <a href="HalamanLogin.html">Sign in</a>
-          <a href="HalamanRegist.html" class="active">Sign up</a>
-          <a href="About.html">About</a>
+          <a href="index.php">Home</a>
+          <a href="login.php">Sign in</a>
+          <a href="register.php" class="active">Sign up</a>
+          <a href="about.php">About</a>
         </div>
       </nav>
     <!-- end of navbar -->
@@ -53,20 +49,20 @@ include "menuUtama.php";
                         </div>
                         <body>
                             <div class="card-body">
-                                <form action="">
+                                <form action="config/register.php" method="POST">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="nama" placeholder="Name">
+                                        <input type="text" class="form-control" name="nama" placeholder="Name">
                                     </div> 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="username" placeholder="Username">
+                                        <input type="text" class="form-control" name="username" placeholder="Username">
                                     </div> 
                                     <div class="form-group">
-                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                        <input type="password" class="form-control" name="password" placeholder="Password">
                                     </div> 
-                                    <button type="submit" class="btn"><a href="MenuUtama.html">Sign up</a></button>
+                                    <button type="submit" class="btn"><a href="menuUtama.php">Sign up</a></button>
                                 </form>
                             </div>
                         </body>

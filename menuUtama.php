@@ -1,11 +1,6 @@
-<?php
-include "index.php";
-include 'session.php';
-include "register.php";
-include "login.php";
-include "about.php";
-include "menuUtama.php";
-?>
+<!-- <?php
+// include "index.php";
+?> -->
 
 <!doctype html>
 <html lang="en">
@@ -37,10 +32,10 @@ include "menuUtama.php";
         </div>
 
         <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="HalamanLogin.html">Sign in</a>
-            <a href="HalamanRegist.html">Sign up</a>
-            <a href="About.html">About</a>
+            <a href="index.php">Home</a>
+            <a href="login.php">Sign in</a>
+            <a href="register.php">Sign up</a>
+            <a href="about.php">About</a>
         </div>
     </nav>
     <!-- end of navbar -->
